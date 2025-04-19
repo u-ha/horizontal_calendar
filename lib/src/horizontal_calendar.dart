@@ -1,7 +1,6 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:intl/intl.dart';
 
 // --- 모양 타입 정의 ---
@@ -324,7 +323,7 @@ class HeartShapePainter extends CustomPainter {
 
 
     // 내부 색상 채우기
-    final fillPaint = Paint()
+    Paint()
       ..color = color
       ..style = PaintingStyle.fill;
 
@@ -344,7 +343,6 @@ class BearShapePainter extends CustomPainter {
 
   @override
   void paint(Canvas canvas, Size size) {
-    final paint = Paint()..color = color;
 
     final width = size.width;
     final height = size.height;
