@@ -34,8 +34,8 @@ class _MyAppState extends State<MyApp> {
               controller: calendarController,
               multiSelect: false,
               selectedDates: [DateTime.now()],
-              todayColor: Colors.green,
-              selectedColor:Colors.green.shade100 ,
+              // todayColor: Colors.green,
+              selectedColor:Colors.brown,
               selectedDate: selectedDate,
               onMultiDateSelected: (dates) {
                 print("Selected: $dates");
@@ -46,10 +46,10 @@ class _MyAppState extends State<MyApp> {
                 });
                 print("Selected: $date");
               },
-              unSelectedColor: Colors.yellow.shade200,
-              baseTextColor: Colors.lightGreen,
+              unSelectedColor: Colors.brown.shade200,
+              // baseTextColor: Colors.lightGreen,
               shapeType: CalendarShapeType.bear, // heart / oval / rectangle / bear
-              shapeSize: Size(150, 100),
+              shapeSize: Size(100, 100),
             ),
             const SizedBox(height: 24),
             Text(

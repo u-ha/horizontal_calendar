@@ -33,3 +33,28 @@ pubspec.lock
 
 # Other
 .melos_tool/
+*.tmp
+
+# Flutter/Dart/Pub related
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Android
+android/.gradle/
+android/captures/
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# iOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/App.framework
+ios/.symlinks
+ios/Pods/
+ios/Runner.xcworkspace/
+DerivedData/
+
+
+

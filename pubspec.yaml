@@ -1,7 +1,7 @@
 name: horizontal_calendar_view
 description: "A Flutter plugin that provides a horizontally scrollable calendar widget."
 version: 0.0.1
-homepage:
+homepage: https://github.com/u-ha/horizontal_calendar
 
 environment:
   sdk: ^3.5.4
