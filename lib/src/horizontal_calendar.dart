@@ -111,15 +111,11 @@ class _HorizontalCalendarState extends State<HorizontalCalendar> {
           monthHeaderCount++;
         }
       }
-      print(monthHeaderCount);
       final double monthHeaderWidth = 48.0;  // 월 헤더의 너비 (예시 값)
       final double itemWidth = widget.shapeSize.width;  // 날짜 셀의 너비
 
       // 오프셋 계산: 날짜 아이템 너비 + 월 헤더 넓이 + 패딩 고려
       final double offset = (index!=0? widget.shapeSize.width/2 : 0) + index * itemWidth + (monthHeaderCount + 1) * monthHeaderWidth ;
-      print(index);
-      print(itemWidth);
-      print(offset);
 
       _scrollController.animateTo(
         offset,
