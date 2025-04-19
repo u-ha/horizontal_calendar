@@ -83,18 +83,6 @@ class _HorizontalCalendarState extends State<HorizontalCalendar> {
     WidgetsBinding.instance.addPostFrameCallback((_) {
       _scrollToToday();
     });
-    _scrollController.addListener(addListener);
-  }
-
-  void addListener(){
-    print(_scrollController.offset);
-    // print(_scrollController.position);
-  }
-
-  @override
-  void dispose() {
-    // TODO: implement dispose
-    _scrollController.removeListener(addListener);
   }
 
   void _scrollToToday() {
