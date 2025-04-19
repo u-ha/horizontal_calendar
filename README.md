@@ -4,7 +4,7 @@ A beautiful, horizontally scrollable calendar widget for Flutter.
 Perfect for scheduling apps, booking views, or modern UI designs.
 Supports fun shape styles like oval, rectangle, heart, and even bear 🐻!
 
-![Brown Bear Shape](assets/images/brown_bear_shape.gif)
+![Brown Bear Shape](https://github.com/u-ha/horizontal_calendar/blob/main/assets/brown_bear_shape.gif?raw=true)
 
 ---
 
