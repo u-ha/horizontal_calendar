@@ -30,7 +30,7 @@ migrate_working_dir/
 build/
 .packages
 pubspec.lock
-example/pubspec.lock
+!example/pubspec.lock
 
 # Other
 .melos_tool/
